@@ -402,16 +402,16 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M -38,0
-        L -38,107
-        L 38,107
+        L -38,110
+        L 38,110
         L 38,0 Z
     </string>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>540</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2182</item> <!-- <item>sensorLocationY</item> -->
-        <item>86</item>   <!-- <item>sensorRadius</item> -->
+        <item>619</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2515</item> <!-- <item>sensorLocationY</item> -->
+        <item>98</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
 </resources>

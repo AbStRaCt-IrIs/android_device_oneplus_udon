@@ -7,10 +7,7 @@
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8450-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/ovaltine
-
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/oplus/ovaltine.config
+DEVICE_PATH := device/oneplus/udon
 
 # Display
 TARGET_SCREEN_DENSITY := 480
@@ -22,4 +19,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/ovaltine/BoardConfigVendor.mk
+include vendor/oneplus/udon/BoardConfigVendor.mk
